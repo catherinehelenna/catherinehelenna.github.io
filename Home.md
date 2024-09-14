@@ -1,6 +1,6 @@
 ---
 title: HOME
-layout: minimal
+layout: template
 filename: Home
 --- 
 
