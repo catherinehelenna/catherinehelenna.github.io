@@ -1,6 +1,7 @@
 ---
 layout: template
 title: "HOME"
+filename: Home
 --- 
 
 # Catherine Helenna Mulyadi
