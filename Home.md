@@ -1,7 +1,7 @@
 ---
 layout: template
 title: "HOME"
-filename: Home
+filename: home
 theme: jekyll-theme-minimal
 --- 
 
