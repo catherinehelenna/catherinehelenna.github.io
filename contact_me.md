@@ -1,7 +1,6 @@
 ---
-layout: index
+layout: contact
 title: "CONTACT"
 filename: contact_me
 --- 
 
-Test
