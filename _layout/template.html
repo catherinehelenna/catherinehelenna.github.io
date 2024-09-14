@@ -1,3 +1,16 @@
-{% for page in site.pages %}
-    <a href={{ page.filename }}>{{ page.title }}</a>
-{% endfor %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    <nav>
+        {% for page in site.pages %}
+            <a href="{{ page.filename }}">{{ page.title }}</a>
+        {% endfor %}
+    </nav>
+    <div class="content">
+        {{ content }} <!-- This is where the page content gets injected -->
+    </div>
+</body>
+</html>
