@@ -2,6 +2,7 @@
 layout: template
 title: "HOME"
 filename: Home
+theme: jekyll-theme-minimal
 --- 
 
 # Catherine Helenna Mulyadi
