@@ -78,3 +78,7 @@ img {
   background-color: #218838; /* Darker green on hover */
   border-color: #218838;
 }
+
+.tagline {
+  font-family: 'Pacifico', cursive; /* Change to your desired Google Font */
+}
