@@ -14,12 +14,44 @@ header {
   text-align: center;
 }
 
-main {
+section {
   padding: 20px;
+  margin: 20px 0;
 }
 
-section {
-  margin-bottom: 20px;
+h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.project-box {
+  display: block;
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-box h3 {
+  margin: 0 0 10px;
+}
+
+.project-box p {
+  margin: 0;
 }
 
 footer {
@@ -27,7 +59,4 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
