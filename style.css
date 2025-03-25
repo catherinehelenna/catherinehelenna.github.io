@@ -55,3 +55,22 @@ ul {
 .project-box p {
   margin: 0; /* Removes default margin for paragraphs */
 }
+
+/* Custom CSS for Publications Section */
+#publications .card {
+  border: 2px solid #28a745; /* Green border for publications */
+}
+
+#publications .card-title {
+  color: #28a745; /* Green text for publication titles */
+}
+
+#publications .btn-primary {
+  background-color: #28a745; /* Green button for publications */
+  border-color: #28a745;
+}
+
+#publications .btn-primary:hover {
+  background-color: #218838; /* Darker green on hover */
+  border-color: #218838;
+}
