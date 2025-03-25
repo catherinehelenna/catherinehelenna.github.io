@@ -69,6 +69,10 @@ ul {
   background-color: #28a745; /* Green button for publications */
   border-color: #28a745;
 }
+img {
+  width: 100px;
+  height: auto; /* Maintains aspect ratio */
+}
 
 #publications .btn-primary:hover {
   background-color: #218838; /* Darker green on hover */
